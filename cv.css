@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+html{
+    background-image:url(https://hrchannels.com/uptalent/attachments/images/20200127/1580144278635-Mau%20CV%20an%20tuong.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+ul, li, a{
+    text-decoration: none;
+    list-style: none;
+}
+.avt{
+    width: 150px;
+    height: 160px;
+    background-color:rgb(237, 234, 234);
+    border-radius: 50%;
+    margin: 20px 0 0 50px;
+}
+:root{
+    --background-main:rgb(202,239,245);
+    --background-body: rgb(248, 144, 9);
+    --text-fontA: rgb(52, 83, 107);
+    --text-fontB: rgb(250,246,197);
+}
+/* Tên */
+.iam{
+    width: 150px;
+    height: 160px;
+    border-radius: 50%;
+}
+.heading{
+    display: flex;
+    background-color: var(--background-main);
+    border-radius: 30px;
+    width: 760px;
+    height: 200px;
+}
+.cv{
+    width: 60%;
+}
+.name{
+    margin: 60px 0 0 90px;
+}
+.name >h1{
+    color: var(--background-body);
+}
+.name >h2{
+    color: var(--text-fontA);
+}
+.first-title{
+    margin-top: 20px;
+    width: 760px;
+}
+/* icon thông tin  */
+.fa-birthday-cake{
+    font-size: 11px;
+    padding: 3px 4px;
+    border-radius: 30px;
+    color: var(--background-body);
+    background-color: white;
+    position: relative;
+    top: 42px;
+    right: 285px;
+}
+.fa-mobile-alt{
+    font-size: 11px;
+    padding: 3px 5px;
+    border-radius: 30px;
+    color: var(--background-body);
+    background-color: white;
+    position: relative;
+    top: 75px;
+    right: 306px;
+}
+.fa-envelope-open{
+    font-size: 11px;
+    padding: 3px 2.5px;
+    border-radius: 30px;
+    color: var(--background-body);
+    background-color: white;
+    position: relative;
+    top: 110px;
+    right: 326px;
+}
+.fa-facebook-f{
+    font-size: 11px;
+    padding: 3px 5px;
+    border-radius: 30px;
+    color: var(--background-body);
+    background-color: white;
+    position: relative;
+    top: 143px;
+    right: 347px;
+}
+.fa-home{
+    font-size: 11px;
+    padding: 3px 2px;
+    border-radius: 30px;
+    color: var(--background-body);
+    background-color: white;
+    position: relative;
+    top: 176px;
+    right: 367.5px;
+}
+/* 2 cột thông tin */
+.second{
+    display: flex;
+    width: 760px;
+
+}
+.second-one{
+    border-radius: 30px;
+    background-color: var(--background-main);
+    height: 200px;
+    padding-top: 10px;
+}
+.one{
+    margin: 15px 0 15px 55px;
+}
+.second-two{
+    border-radius: 30px;
+    background-color: var(--background-main);
+    height: 300px;
+    margin-left: 30px;
+}
+.second-2{
+    margin-top: 60px;
+    text-align: justify;
+}
+.two{
+    margin: 15px 35px;
+    font-style: italic;
+}
+.time{
+    color: var(--text-fontA);
+    font-weight: 700;
+}
+/* bên trái */
+.title1{
+    background-color: var(--text-fontB);
+    padding: 10px;
+    color: var(--background-body);
+    font-weight: 800;
+    border-radius: 30px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+.title2{
+    background-color: var(--text-fontB);
+    color: var(--background-body);
+    font-weight: 800;
+    padding: 10px;
+    border-radius: 30px;
+    position: relative;
+    left: 180px;
+    top: 10px;
+}
+.skill{
+    border-radius: 30px;
+    background-color: var(--background-main);
+    height: 240px;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+.skill-{
+    color: var(--background-body);
+    font-weight: 700;
+    text-align: justify;
+}
+.title3{
+    background-color: var(--text-fontB);
+    color: var(--background-body);
+    font-weight: 800;
+    padding: 10px;
+    border-radius: 30px;
+    position: relative;
+    left: 20px;
+    top: 30px;
+}
+.skill- ,.skill-content{
+    margin: 15px 35px;
+}
+.scholarship{
+    border-radius: 30px;
+    background-color: var(--background-main);
+    height: 100px;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+.title4{
+    background-color: var(--text-fontB);
+    color: var(--background-body);
+    font-weight: 800;
+    padding: 10px;
+    border-radius: 30px;
+    position: relative;
+    left: 20px;
+    top: 30px;
+}
+.scholarshipA ,.scholarshipB{
+    margin: 15px 35px;
+}
+.scholarshipA{
+    color: var(--background-body);
+    font-weight: 700;
+}
+.achievements{
+    border-radius: 30px;
+    background-color: var(--background-main);
+    height: 180px;
+    padding-top: 10px;
+    margin-top: 20px;
+    text-align: justify;
+}
+.title5{
+    background-color: var(--text-fontB);
+    color: var(--background-body);
+    font-weight: 800;
+    padding: 10px;
+    border-radius: 30px;
+    position: relative;
+    left: 20px;
+    top: 30px;
+}
+.achievements-{
+    margin: 15px 35px;
+}
+/* bên phải */
+.stu{
+    margin-top: 80px;
+    margin-left: 25px;
+    border-left: 6px solid var(--text-fontB);
+}
+.title6{
+    background-color: var(--background-main);
+    color: var(--background-body);
+    font-weight: 800;
+    padding: 10px;
+    border-radius: 30px;
+    position: relative;
+    top: 70px;
+}
+.stu-X ,.stu-XD{
+    margin: 15px 35px;
+}
+.stu-Y ,.stu-J{
+    margin: 5px 35px;
+}
+.exp{
+    margin-top: 30px;
+    margin-left: 25px;
+    border-left: 6px solid var(--text-fontB);
+}
+.title7{
+    background-color: var(--background-main);
+    color: var(--background-body);
+    font-weight: 800;
+    padding: 10px;
+    border-radius: 30px;
+    position: relative;
+    top: 15px;
+}
+.exp-X ,.exp-XD{
+    margin: 15px 35px;
+}
+.exp-Y ,.exp-J{
+    margin: 5px 35px;
+}
+/* icon */
+.fa-graduation-cap{
+    padding: 9px 6px;
+    border-radius: 30px;
+    font-size: 20px;
+    color: var(--text-fontA);
+    background-color: var(--background-main);
+    position: relative;
+    top: 114px;
+    right: 69px;
+}
+.fa-user-tie{
+    padding: 9px 10px;
+    border-radius: 30px;
+    font-size: 20px;
+    color: var(--text-fontA);
+    background-color: var(--background-main);
+    position: relative;
+    top: 60px;
+    right: 163px;
+}
+.fa-handshake{
+    padding: 9px 7px;
+    border-radius: 30px;
+    font-size: 20px;
+    color: var(--text-fontA);
+    background-color: var(--background-main);
+    position: relative;
+    top: 180px;
+    right: 206px;
+}
+/* màu chữ bên phải */
+.stu-X ,.exp-X{
+   color: var(--background-body);
+   font-weight: 700;
+}
+.stu-XD ,.exp-XD{
+    color: var(--text-fontA);
+    font-weight: 700;
+}
+.cv{
+    width: 783px;
+    margin: 5% 0% 20% 19%;
+    padding: 20px 10px 70px 10px;
+    border: 2px solid rgb(227, 224, 224);
+    box-shadow: 10px 10px 10px rgb(181, 224, 232);
+    background-color: white;
+}
